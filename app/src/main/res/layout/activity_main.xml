@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!--tl_iconHeight:图标高度
+        tl_iconHeight：图标宽度
+        tl_iconMargin：图标外间距
+        tl_textSelectColor：选中文字颜色
+        tl_textUnselectColor：未选中文字颜色
+        tl_textsize：文字大小
+        tl_underline_color：分割线颜色
+        tl_underline_gravity：分割线位置
+        tl_underline_height：分割线高度-->
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ffffff"
+        app:tl_iconHeight="30dp"
+        app:tl_iconMargin="-2dp"
+        app:tl_iconWidth="30dp"
+        app:tl_textSelectColor="#FC6EA1"
+        app:tl_textUnselectColor="#666666"
+        app:tl_textsize="14sp"
+        app:tl_underline_color="#DFDFDF"
+        app:tl_underline_gravity="TOP"
+        app:tl_underline_height="1dp" />
+
+</LinearLayout>

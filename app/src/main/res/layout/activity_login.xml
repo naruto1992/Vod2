@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/login_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/login_welcome" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_welcome"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            app:errorTextAppearance="@style/MyErrorStyle">
+
+            <EditText
+                android:id="@+id/login_et_username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@mipmap/login_icon_user"
+                android:drawablePadding="10dp"
+                android:hint="@string/login_remind_username"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#7E62DC"
+                android:textColorHint="#989898"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/til_username"
+            android:layout_alignRight="@id/til_username"
+            android:layout_below="@id/til_username"
+            android:paddingTop="10dp"
+            app:errorTextAppearance="@style/MyErrorStyle">
+
+            <EditText
+                android:id="@+id/login_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@mipmap/login_icon_pwd"
+                android:drawablePadding="10dp"
+                android:hint="@string/login_remind_pass"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="#7E62DC"
+                android:textColorHint="#989898"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/til_username"
+            android:layout_alignRight="@id/til_username"
+            android:layout_below="@+id/til_pass"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/login_bt_bg"
+            android:padding="12dp"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/til_username"
+            android:layout_alignRight="@id/til_username"
+            android:layout_below="@id/signIn"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/register_bt_bg"
+            android:padding="12dp"
+            android:text="@string/sign_up_now"
+            android:textAllCaps="false"
+            android:textColor="@color/txt_gray"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/til_username"
+            android:layout_below="@id/signUp"
+            android:layout_marginTop="20dp"
+            android:text="@string/forget_password"
+            android:textColor="@color/shallow_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@id/til_username"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/look_around"
+            android:textColor="@color/shallow_gray" />
+    </RelativeLayout>
+</ScrollView>

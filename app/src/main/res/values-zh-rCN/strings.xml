@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OceanJet</string>
+    <!--tab-->
+    <string name="tab1">视频</string>
+    <string name="tab2">旅行</string>
+    <string name="tab3">票务</string>
+    <string name="tab4">我的</string>
+
+    <string name="search_keywords">搜索关键词</string>
+    <!--注册-->
+    <string name="login_remind_username">请输入用户名</string>
+    <string name="login_remind_pass">请输入密码</string>
+    <string name="sign_in">登录</string>
+    <string name="sign_up_now">立即注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="look_around">随便看看</string>
+    <!--视频类型-->
+    <string name="video_type_hot">热播</string>
+    <string name="video_type_travel">游记</string>
+    <string name="video_type_movie">电影</string>
+    <string name="video_type_tvplay">电视节目</string>
+    <string name="video_type_variety">花边</string>
+    <string name="video_type_manga">漫画</string>
+    <!--我的-->
+    <string name="information">个人信息</string>
+    <string name="off_line">异常离线</string>
+    <string name="route">我的行程</string>
+    <string name="install">系统设置</string>
+    <string name="feed_back">意见反馈</string>
+
+</resources>

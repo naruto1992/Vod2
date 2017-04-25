@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OceanJet</string>
+
+    <string name="tab1">Video</string>
+    <string name="tab2">Travel</string>
+    <string name="tab3">Ticket</string>
+    <string name="tab4">Mine</string>
+
+    <string name="search_keywords">Search Keywords</string>
+    <string name="login_remind_username">Your name</string>
+    <string name="login_remind_pass">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="look_around">Look Around</string>
+
+    <string name="video_type_hot">Hot</string>
+    <string name="video_type_travel">Travel</string>
+    <string name="video_type_movie">Movie</string>
+    <string name="video_type_tvplay">TV play</string>
+    <string name="video_type_variety">Variety</string>
+    <string name="video_type_manga">Manga</string>
+
+    <string name="information">Information</string>
+    <string name="off_line">Off-Line</string>
+    <string name="route">Route</string>
+    <string name="install">Install</string>
+    <string name="feed_back">Feedback</string>
+</resources>
